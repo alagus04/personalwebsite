@@ -1,0 +1,2 @@
+# My Personal Website
+Hey there! If you have made it this far, thanks for checking my page out. In this personal website, I am showcasing my HTML, CSS, and JS technical skills through the form of a personal website/portfolio. If you have any questions, concerns, feedback, or just want to talk about some of my projects and work, please feel free to reach me at s.alagappan529@gmail.com or through GitHub at @alagus04.
