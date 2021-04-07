@@ -119,7 +119,9 @@ html, body {
     text-align: center;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
+    color:white;
     font-weight: bold;
+    animation: fadeIn ease 5s
 }
 
 .typewriter {
