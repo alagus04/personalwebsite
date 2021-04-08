@@ -6,20 +6,11 @@ html, body {
     left:0;
     right:0;
 }
-
-.alagupfp {
-    margin: 10px auto 20px;
-    display: block;
-    border-radius: 50%;
-}
-
-.alagu {
-    animation: fadeIn ease 10s;
-    -webkit-animation: fadeIn ease 10s;
-    -moz-animation: fadeIn ease 10s;
-    -o-animation: fadeIn ease 10s;
-    -ms-animation: fadeIn ease 10s;
-     
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(101,111,111,1) 100%;
+    color: white;
 }
 
 .button {
@@ -63,65 +54,14 @@ html, body {
     right: 0;
   }
 
-  footer{
-      text-align: center;
-      padding: 3px;
-      background-color: rgba(101,111,111,1) 100%;
-      color: white;
-  }
-
-.container {
-    height:200px;
-    position: relative;
-    border: 3px solid green
-}
-
-.vertical-center {
-    margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-.name {
+.bio{
+    margin: auto;
+    width: 50%;
+    border: 0px solid white;
+    padding: 10x;
     text-align: center;
-    font-size: 50px;
-}
-
-.subtitle {
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    color:white;
-    font-weight: bold;
-    animation: fadeIn ease 5s
+    font-family:'Courier New', Courier, monospace;
+    color: white;
 }
 
 .typewriter {
@@ -137,7 +77,7 @@ html, body {
     display: block;
   	overflow: hidden;
   	letter-spacing: 2px;
- 	  animation: typing 3s steps(30, end), blink .75s step-end infinite;
+ 	animation: typing 1.5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
     font-size: 50px;
     font-weight: 700;
@@ -150,7 +90,7 @@ html, body {
         width: 0% 
     }
     to { 
-        width: 40% 
+        width: 17% 
     }
 }
 
@@ -161,6 +101,5 @@ html, body {
     50% { 
         border-color: orange; 
     }
-
 
 }
