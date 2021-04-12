@@ -76,7 +76,11 @@ a:active{
     margin: 0 auto;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
-    animation: fadeIn ease 15s
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    animation: fadein 2s;
   }
   
   .button span {
